@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 export class PieComponent {
 	// fake pie data
 	public pieChartLabels: string[] = ["Hillary Clinton", "Donald Trump", "Gary Johnson", "Jill Stein"];
-	public pieChartColors: any[] = [{}];
+	public pieChartColors: any[] = [{}]; // HACK: https://github.com/valor-software/ng2-charts/issues/251#issuecomment-225581645
 	public pieChartDatasets: any[] = [
 		{
 			data: [1987416, 1981209, 52176, 19108],
