@@ -4,4 +4,4 @@ import {Component} from "@angular/core";
 	templateUrl: "./templates/line.php"
 })
 
-export class PieComponent {}
+export class LineComponent {}
